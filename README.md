@@ -13,7 +13,7 @@ The Musical String is based on JFugue's representation of musical String:
 
 You can download sample piano notes that I trimmed for this project: http://www.filedropper.com/pianonotes
 
-The following example demonstrates how to use AlgorithmicMusicPlayer in your Android App.
+The following example demonstrates how to use AlgorithmicMusicPlayer in your Android App. You can listen to the WAV files produced from this code at: https://soundcloud.com/ziad-halabi-3/song
 
 ```java
 
