@@ -14,7 +14,7 @@ The Musical String is based on JFugue's representation of musical String:
 You can download sample piano notes that I trimmed for this project: http://www.filedropper.com/pianonotes
 The notes will produce a song that has a tempo of 120 bpm. In future updates, the option for the user to set the tempo will be added. 
 
-SetUp:
+**SetUp Instructions:**
 - Download the project and import it into Android Studio
 - Download the Piano Notes from the link above or provide your own notes.
 - Copy the music notes into your phone.
@@ -51,7 +51,7 @@ The following example demonstrates how to use AlgorithmicMusicPlayer in your And
         p.produceMusic("/storage/emulated/legacy/Audio/song.wav");
 }
 ```
-Reference:
+**Reference:**
 
 - Check JFugue Library (http://www.jfugue.org/) that is a great library for algorithmic music composition. It is written in JAVA and uses javax.sound which is not supported on Android. This library has been developped in order to overcome this limitation.
 - Thanks to hiteshsondhi88 for publishing ffmpeg-android library (https://github.com/hiteshsondhi88/ffmpeg-android) 
