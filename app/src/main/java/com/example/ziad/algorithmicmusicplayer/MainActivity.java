@@ -15,8 +15,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tv = (TextView) findViewById(R.id.textView);
-
         String path_audio = "/storage/emulated/legacy/Audio/";
         String path_piano_notes = path_audio+"pianonotes_notloud/";
 
@@ -35,14 +33,6 @@ public class MainActivity extends ActionBarActivity {
         //Create a Wav File of the song
         p.produceMusic(path_audio+"song.wav");
 
-        File dir = this.getApplicationContext().getCacheDir();
-
-        File[] f = dir.listFiles();
-        String s = "";
-        for(int i=0; i<f.length;i++){
-            s+=f[i].getName()+"\n";
-        }
-        tv.setText(s);
     }
 
 
