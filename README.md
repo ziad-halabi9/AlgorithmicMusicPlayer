@@ -1,7 +1,7 @@
 # AlgorithmicMusicPlayer
 
 
-This project presents a method to convert Musical Strings into a WAV file on Android. It was build since MIDI is not supported by Android.
+This project presents a method to convert Musical Strings into a WAV file on Android. It was built since MIDI is not supported by Android.
 If you want to use AlgorithmicMusicPlayer, you need to have a collection of musical Notes stored as WAV files. The App will use FFmpeg Library to create a WAV file for your input.
 The Musical String is based on JFugue's representation of musical String:
 - Notes are separated by a space
