@@ -14,7 +14,7 @@ The Musical String is based on JFugue's representation of musical String:
 You can download sample piano notes that I trimmed for this project: http://www.filedropper.com/pianonotes
 The notes will produce a song that has a tempo of 120 bpm. In future updates, the option for the user to set the tempo will be added. 
 
-**SetUp Instructions:**
+**Setup Instructions:**
 - Download the project and import it into Android Studio
 - Download the Piano Notes from the link above or provide your own notes.
 - Copy the music notes into your phone.
