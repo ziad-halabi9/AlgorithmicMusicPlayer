@@ -42,5 +42,8 @@ The following example demonstrates how to use AlgorithmicMusicPlayer in your And
         p.produceMusic(path_audio+"song.wav");
 }
 ```
+Reference:
 
-Check JFugue Library (http://www.jfugue.org/) that is a great library for algorithmic music composition. It is written in JAVA and uses javax.sound which is not supported on Android. This library has been developped in order to overcome this limitation.
+- Check JFugue Library (http://www.jfugue.org/) that is a great library for algorithmic music composition. It is written in JAVA and uses javax.sound which is not supported on Android. This library has been developped in order to overcome this limitation.
+- Thanks to hiteshsondhi88 for publishing ffmpeg-android library (https://github.com/hiteshsondhi88/ffmpeg-android) 
+
