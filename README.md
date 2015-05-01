@@ -19,6 +19,7 @@ The notes will produce a song that has a tempo of 120 bpm. In future updates, th
 - Download the Piano Notes from the link above or provide your own notes.
 - Copy the music notes into your phone.
 - In the MainActivity, change the path_piano_notes to the path where you pasted the notes. (Note: The path should not contain spaces)
+- Edit the path of the output WAV file that the App will produce.
 - Run the App!
 
 The following example demonstrates how to use AlgorithmicMusicPlayer in your Android App. You can listen to the WAV files produced from this code at: https://soundcloud.com/ziad-halabi-3/song
