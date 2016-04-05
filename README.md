@@ -11,7 +11,7 @@ The Musical String is based on JFugue's representation of musical String:
 - Duration can be: w (whole note), h (half), q (quarter), i (eigth) and s (sixteenth)
 - Rest Notes are: rw, rh, rq, ri and rs.
 
-You can download sample piano notes that I trimmed for this project: http://www.filedropper.com/pianonotes
+You can download sample piano notes that I trimmed for this project: https://drive.google.com/open?id=0B1ej2Qu88yvkQm5fLUdobVhNTWc (Add it to your drive then download it).
 The notes will produce a song that has a tempo of 120 bpm. In future updates, the option for the user to set the tempo will be added. 
 
 **Setup Instructions:**
