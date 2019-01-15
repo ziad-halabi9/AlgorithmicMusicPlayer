@@ -40,7 +40,7 @@ The following example demonstrates how to use AlgorithmicMusicPlayer in your And
 
         // Create Second Instrument
         Instrument piano_left = new Instrument("piano_left");
-        piano_left.setBar("D4w F4h C4h D4w A#3h A3h D4w F4h C4h D4w");
+        piano_left.setBar("D4w F4h C4h D4w A#3h A3h D4w F4h C4h D4w Rw");
         piano_left.setPath_to_notes(path_piano_notes);
 
         //Add Instruments to a Player    
@@ -49,11 +49,20 @@ The following example demonstrates how to use AlgorithmicMusicPlayer in your And
         p.addInstrument(piano_left);
 
         //Create a Wav File of the song
-        p.produceMusic("/storage/emulated/legacy/Audio/song.wav");
+        File outputFile = new File(Environment.getExternalStorageDirectory(), "song.wav");
+        p.produceMusic(outputFile.getAbsolutePath(), new MusicGeneratingCallback() {
+            @Override
+            public void onError(String message) {
+            }
+
+            @Override
+            public void onSuccess(String message) {
+            }
+        });
 }
 ```
 **Reference:**
 
 - Check JFugue Library (http://www.jfugue.org/) that is a great library for algorithmic music composition. It is written in JAVA and uses javax.sound which is not supported on Android. This library has been developped in order to overcome this limitation.
-- Thanks to hiteshsondhi88 for publishing ffmpeg-android library (https://github.com/hiteshsondhi88/ffmpeg-android) 
+- Thanks to bravobit for publishing ffmpeg-android library (https://github.com/bravobit/FFmpeg-Android) 
 
